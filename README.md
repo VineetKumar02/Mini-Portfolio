@@ -3,11 +3,11 @@ This is a simple portfolio website built with HTML, CSS, and JavaScript. It incl
 <br><br>
 
 ## Technologies used
-HTML<br>
-CSS<br>
-JavaScript<br>
-<br>
+* HTML
+* CSS
+* JavaScript
+<br><br>
 
 ## How to run the project
-Clone the repository to your local machine<br>
-Open the index.html file in your preferred web browser<br>
+1. Clone the repository to your local machine<br>
+2. Open the index.html file in your preferred web browser<br>
