@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio Mini</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Portfolio<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <div class="links">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <input type="checkbox" id="toggle_checkbox">
+            <label for="toggle_checkbox">
+                <div id="star">
+                    <div class="star" id="star-1">★</div>
+                    <div class="star" id="star-2">★</div>
+                </div>
+                <div id="moon"></div>
+            </label>
+        </nav>
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">./HelloWorld.exe</span>
+                <h1>I'm <span class="multiText"></span></h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae quibusdam asperiores ullam
+                    aliquid, doloribus dignissimos voluptate ducimus quod, amet optio nesciunt repellendus nisi</p>
+                <div class="btns">
+                    <button type="button" class="button">
+                        <span class="button__text">Download CV</span>
+                        <i class="fa-solid fa-download"></i>
+                    </button>
+                    <button type="button" class="button">
+                        <span class="button__text">Hire me</span>
+                        <i class="fa-solid fa-user"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="cols cols1">
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="imgbox">
+                    <img src="images/splash.png" alt="Image couldn't be loaded" id="splash">
+                    <img src="images/image.png" alt="Image couldn't be loaded" id="image">
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="ball-container">
+                <div class="ball-shadow"></div>
+                <div class="ball"></div>
+            </div>
+        </div>
+        <div class="container3">
+            <div class="rocket">
+                <img src="images/rocket.png" alt="rocket">
+            </div>
+        </div>
+        <img src="images/earth.png" alt="Image couldn't be loaded" id="earth">
+        <!-- <img src="images/earth_animated.gif" alt="Image couldn't be loaded" id="earth"> -->
+        <img src="images/astronaut.gif" alt="Image couldn't be loaded" id="astronaut">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multiText", {
+            strings: ["coder.", "developer.", "designer."],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1500,
+        })
+    </script>
+    <script src="animation.js"></script>
+</body>
+
+</html>
