@@ -1,11 +1,3 @@
-// $(".container3").click(function(){
-//     $(this).addClass('active');
-//     setTimeout(() => {
-//         $(this).removeClass('active');
-//     }, 7000);
-// });
-
-
 const toggle = document.getElementById('toggle_checkbox');
 const astronaut = document.getElementById('astronaut');
 const splash = document.getElementById('splash');

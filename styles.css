@@ -44,7 +44,6 @@ body {
     height: 80px;
     line-height: 80px;
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-    border-radius: 0 0 25px 25px;
     z-index: 9999;
 }
 
@@ -89,8 +88,20 @@ body {
     margin: 25px 10px;
 }
 
-.links a:hover {
-    color: #0A66C2;
+.links a:nth-child(1):hover {
+    color: #0072b1;
+}
+
+.links a:nth-child(2):hover {
+    color: var(--text-color4);
+}
+
+.links a:nth-child(3):hover {
+    color: #E1306C;
+}
+
+.links a:nth-child(4):hover {
+    color: #0d4db4;
 }
 
 .wrapper {
@@ -445,7 +456,7 @@ label {
     cursor: pointer;
     transition: 0.5s ease background-color;
     overflow: hidden;
-    border: var(--text-color4) solid;
+    border: var(--text-color3) solid;
 }
 
 #star {
